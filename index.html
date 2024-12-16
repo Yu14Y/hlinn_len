@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="centered-container">
+        <img src="/src/h.png" alt="Centered Image">
+    </div>
+    <button onclick="playBoth()">Voice Message From Helen (click)</button>
+    <audio id="audio1" loop>
+        <source src="/src/h.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="audio2" loop>
+        <source src="/src/lol.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function playBoth() {
+            const audio1 = document.getElementById('audio1');
+            const audio2 = document.getElementById('audio2');
+            
+            audio1.play();
+            audio2.play();
+        }
+        </script>
+    
+    <div class="vh-container">
+        <h1> Love Letter From Helen To Strike<br></h1>
+
+        <p>Hello Strike, </p>
+        <p> I am Really in love with you 🌸
+            <br>Please Listen to the voice message i have recorded </p>
+        </div>
+
+
+</body>
+</html>
+
